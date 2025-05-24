@@ -1,0 +1,139 @@
+*{
+    font-family: "Lato" ;
+}
+
+/* home */
+#home-sec{
+    background-image: url(../imgs/agency-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100dvh;
+}
+
+#home-sec h1{
+    font-size: 100px;
+}
+
+#home-sec p{
+    font-size: 28px;
+}
+
+#home-sec .portfolio:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+/* our work */
+#our-work{
+    background-color: aquamarine;
+
+}
+
+#our-work .items .content{
+    background-color: rgba(0, 0, 0, 0);
+    width: 94%;
+    color: transparent;
+    transition: all 0.3s 0.1s;
+    -webkit-transition: all 0.3s 0.1s;
+    -moz-transition: all 0.3s 0.1s;
+    -ms-transition: all 0.3s 0.1s;
+    -o-transition: all 0.3s 0.1s;
+}
+
+#our-work .items .content:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#our-work .view:hover{
+    background-color: rgb(35, 34, 34);
+    border: none;
+}
+
+#our-work .custom1 button{
+    background-color: rgb(166, 166, 166) !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#our-work .carousel-indicators .active{
+    background-color: transparent !important;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+/* section four */
+#section-four .custom2 button{
+    background-color: white;
+    opacity: 1;
+}
+
+#section-four .carousel-indicators .active{
+    background-color: transparent !important;
+    border: 2px solid white;
+}
+
+/* news */
+#news .custom3 button{
+    background-color: rgb(166, 166, 166) !important;
+}
+
+#news .carousel-indicators .active{
+    background-color: transparent !important;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+/* last section */
+#last div a:hover{
+    opacity: 1 !important;
+}
+
+/* footer */
+footer a{
+    color: gray;
+    border: 1px none;
+    border-radius: 50%;
+    padding: 12px ;
+    margin-inline: 2px;
+    /*background-color: ;
+    */-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+footer .facebook{
+    padding-inline: 15px;
+}
+
+footer a:hover{
+    color: white !important;
+}
+
+footer .facebook:hover{
+    background-color: #3B5998 !important;
+    opacity: 1 !important;
+}
+
+footer .google:hover{
+    background-color: tomato !important;
+    opacity: 1 !important;
+}
+footer .linkedin:hover{
+    background-color: #007BB5 !important;
+    opacity: 1 !important;
+}
+footer .twitter:hover{
+    background-color:#00ACED !important;
+    opacity: 1 !important;
+}
